@@ -38,6 +38,24 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
+           <audio id="divAudio">
+   <source src="main.mp3" type="audio/mp3">
+</audio>
+
+<script>
+   var vAudio = document.getElementById("divAudio");
+   function playMusic()
+   {
+      vAudio.play();
+   }
+</script>
+<!--
+<embed src="perfect.mp3" autostart="true" loop="true" 
+width="0" height="0">
+</embed>-->
+<div onmouseover="playMusic()">
+
+ 
         <div class="site-preloader-wrap">
             <div class="spinner"></div>
         </div><!-- Preloader -->
@@ -216,7 +234,7 @@
         </footer><!-- /Footer Section -->
         
 		<a data-scroll href="#header" id="scroll-to-top"><i class="arrow_up"></i></a>
-	
+	</div>
 		<!-- jQuery Lib -->
 		<script src="js/vendor/jquery-1.12.4.min.js"></script>
 		<!-- Bootstrap JS -->
