@@ -37,7 +37,24 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-       
+      <audio id="divAudio">
+   <source src="main.mp3" type="audio/mp3">
+</audio>
+
+<script>
+   var vAudio = document.getElementById("divAudio");
+   function playMusic()
+   {
+      vAudio.play();
+   }
+</script>
+<!--
+<embed src="perfect.mp3" autostart="true" loop="true" 
+width="0" height="0">
+</embed>-->
+<div onmouseover="playMusic()">
+
+ 
         
         <div class="site-preloader-wrap">
             <div class="spinner"></div>
@@ -107,7 +124,7 @@
                                <div class="slider-text">
                                    <h5 class="wow cssanimation fadeInBottom">Partner With Us</h5>
                                    <h1 class="wow cssanimation leFadeInRight sequence">One For All. All For One.</h1>
-                                    <p class="wow cssanimation fadeInTop" data-wow-delay="1s">With the blessings of Pragat Brahmaswarup Mahant Swami Maharaj.</p>
+                                    <p class="wow cssanimation fadeInTop" data-wow-delay="1s">Inspired by and granted the highest Blessings from the Holy Hands of the Venerable Mahant Swami Maharaj</p>
                                    
                                 </div>
                            </div>
@@ -199,7 +216,7 @@
                                     <p><i class="ti-bar-chart"></i>Dated: October, 2023</p>
                                     <p><i class="ti-thumb-up"></i>Endorsed By: Pragat Brahmaswarup Mahant Swami Maharaj</p>
                                 </div>
-                              <a href="contact.html" class="read-more">Know More</a> |   <a href="https://www.dropbox.com/scl/fi/ng8uaft2w8msrhco4b55a/Video-25-09-23-10-55-58.mp4?rlkey=dfm9tonhmqgjdtzi8xown3gn0&dl=0" target="_blank" class="read-more">Watch The Endorsement</a>
+                              <a href="contact.html" class="read-more">Know More</a> |   <a href="gallery.html#mainvideo" target="_blank" class="read-more">Watch The Endorsement</a>
                             </div>
                         </div>
                     </div><!-- /Causes-1 -->
@@ -287,7 +304,7 @@ from deprived areas of the world.</p>
                             </div>
                             <div class="donation-box">
                                 <h3><i class="ti-bar-chart"></i>Goal: $20,000,000</h3>
-                                <h3><i class="ti-thumb-up"></i>Raised: Yet to launch</h3>
+                                <h3><i class="ti-thumb-up"></i>Raised: $3,00,000</h3>
                             </div>
                             <a href="#" class="default-btn">Donate Now</a>
                             <a href="Great Giving Global Academy Proposal.pdf" target="_blank" class="default-btn">Project Details</a>
@@ -456,7 +473,7 @@ from deprived areas of the world.</p>
 		</footer><!-- /Footer Section -->
         
 		<a data-scroll href="#header" id="scroll-to-top"><i class="arrow_up"></i></a>
-	
+	</div>
 		<!-- jQuery Lib -->
 		<script src="js/vendor/jquery-1.12.4.min.js"></script>
 		<!-- Bootstrap JS -->
